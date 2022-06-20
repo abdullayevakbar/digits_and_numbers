@@ -6,4 +6,8 @@
 //     number
 // Returns:
 //     return amswer;
+int func(number) {
+  return number ~/ 10;
+}
+
 void main() {}
