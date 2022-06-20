@@ -8,4 +8,19 @@
   Returns:
       return answer
   */
+int func(int number) {
+  int s = 1;
+  s *= number % 10;
+  number ~/= 10;
+
+  s *= number % 10;
+  number ~/= 10;
+
+  s *= number % 10;
+  number ~/= 10;
+
+  s *= number % 10;
+  return s;
+}
+
 void main() {}
